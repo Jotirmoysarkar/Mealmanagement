@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tenpx {
+    height: 10px;
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    background: rgb(0, 0, 0);
+}
+
+#header > #nav {
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#header > #nav > #nav-one {
+    width: 50%;
+    float: left;
+}
+
+#header > #nav > #nav-one > h1 {
+    font-size: 40px;
+    color: white;
+}
+
+#header > #nav > #nav-two {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#header > #nav > #nav-two > .nav-two-child {
+    width: 100%;
+    height: 50%;
+}
+
+#header > #nav > #nav-two > .nav-two-child > #nav-two-child-one {
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+#header > #nav > #nav-two > .nav-two-child > #nav-two-child-two {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+#header > #nav > #nav-two > .nav-two-child > #nav-two-child-two > a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    background: white;
+    text-align: center;
+    color: black;
+}
+
+#header > #nav > #nav-two > .nav-two-child > #nav-two-child-two > a:hover {
+    background: rgb(240, 240, 240);
+}
+
+#main-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#main-container > #img-container {
+    width: 100%;
+    height: 500px;
+    background: url("../img/foodImage.jpg");
+    background-size: cover;
+}
+
+#main-container > #img-container > #text-message-container {
+    width: 60%;
+    height: 250px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main-container > #img-container > #text-message-container > #text-message-one {
+    width: 100%;
+    height: 80%;
+    color: white;
+    font-size: 85px;
+    font-family: sans-serif;
+    line-height: 200px;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#main-container > #img-container > #text-message-container > #text-message-two {
+    width: 100%;
+    height: 20%;
+    background: black;
+    font-size: 20px;
+    color: rgba(150, 150, 130);
+    text-align: center;
+}
+
+#main-container > #welcome-message-container {
+    width: 100%;
+}
+
+#main-container > #welcome-message-container > h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+#main-container > #welcome-message-container > p {
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 25px;
+    color: rgb(100, 100, 100);
+}
+
+#main-container > #meal-category-container {
+    width: 100%;
+}
+
+#main-container > #meal-category-container > h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+#main-container > #meal-category-container > .meal-category-row {
+    width: 100%;
+    height: 40px;
+    padding: 5px 0px;
+}
+
+#main-container > #meal-category-container > .meal-category-row > .meal-category-item {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#main-container > #meal-category-container > .meal-category-row > .meal-category-item > a {
+    display: block;
+    text-decoration: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    line-height: 40px;
+    vertical-align: middle;
+    background: rgb(100, 100, 100);
+    color: white;
+}
+
+#main-container > #meal-category-container > .meal-category-row > .meal-category-item > a:hover {
+    background: black;
+}
+
+#main-container > #ordering-process-container {
+    width: 100%;
+    background: white;
+}
+
+#main-container > #ordering-process-container > h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+#main-container > #ordering-process-container > #ordering-rules {
+    padding: 0px 20px;
+}
+
+#main-container > #ordering-process-container > #ordering-rules > ul {
+    padding: 0px 20px;
+}
+
+#main-container > #ordering-process-container > #ordering-rules > ul > li {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+}
+
+#footer {
+    width: 100%;
+    height: 150px;
+    background: black;
+}
+
+#footer > #contact-container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+}
+
+#footer > #contact-container > .contact-container-child {
+    width: 50%;
+    float: left;
+}
+
+#footer > #contact-container > .contact-container-child > #service-time {
+    width: 100%;
+    font-size: 80px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 1080px) {
+    #main-container > #img-container > #text-message-container > #text-message-one {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #main-container > #img-container > #text-message-container > #text-message-one {
+        font-size: 40px;
+    }
+
+    #main-container > #img-container > #text-message-container > #text-message-two {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #main-container > #img-container > #text-message-container > #text-message-one {
+        font-size: 20px;
+    }
+
+    #main-container > #img-container > #text-message-container > #text-message-two {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #header > #nav > #nav-two > .nav-two-child > #nav-two-child-one {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    
+    #header > #nav > #nav-two > .nav-two-child > #nav-two-child-two {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+
+    #footer {
+        height: 250px;
+    }
+
+    #footer > #contact-container > .contact-container-child {
+        width: 100%;
+        float: left;
+    }
+
+    #footer > #contact-container > .contact-container-child > #service-time {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #main-container > #img-container > #text-message-container > #text-message-two {
+        font-size: 10px;
+    }
+}

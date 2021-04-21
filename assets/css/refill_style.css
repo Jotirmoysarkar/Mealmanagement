@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+}
+
+#refill-account-container {
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(240, 240, 240);
+    height: 350px;
+}
+
+#refill-account-container > h2 {
+    text-align: center;
+}
+
+#refill-account-container > form {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    border: none;
+    padding: 5px 0px;
+    font-size: 18px;
+    outline: none;
+}
+
+.input-fields {
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+input[type="submit"] {
+    background: rgb(128, 128, 128);
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background: rgb(100, 100, 100);
+    color: white;
+    cursor: pointer;
+}
+
+#refill-account-container > #msg {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: orange;
+}
+
+#footer {
+    width: 100%;
+    height: 20px;
+    background: rgb(0, 0, 255);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+#footer > a {
+    text-decoration: none;
+    color: white;
+}

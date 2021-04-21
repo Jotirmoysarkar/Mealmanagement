@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+}
+
+#add-member-container {
+    width: 90%;
+    height: 450px;
+    background: rgb(240, 240, 240);
+    margin: 0 auto;
+}
+
+#add-member-container > h2 {
+    text-align: center;
+}
+
+#add-member-container > form {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#add-member-container > form > input {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+
+#add-member-container > form > .input-fields {
+    border-bottom: 1px solid black;
+    background: rgb(240, 240, 240);
+}
+
+#add-member-container > form > input[type="submit"] {
+    background: rgb(128, 128, 128);
+    color: white;
+}
+
+#add-member-container > form > input[type="submit"]:hover {
+    background: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+#add-member-container > #msg {
+    width: 100%;
+    text-align: center;
+    color: orange;
+}
+
+#footer {
+    width: 100%;
+    height: 20px;
+    background: rgb(0, 0, 255);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+#footer > a {
+    text-decoration: none;
+    color: white;
+}

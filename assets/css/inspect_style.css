@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+#main-container {
+    width: 1050px;
+    height: 500px;
+    margin: 0 auto;
+    background: rgb(240, 240, 240);
+}
+
+table {
+    display: block;
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+}
+
+td{
+    width: 150px;
+    padding: 2px 0px;
+    text-align: center;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tbl-head {
+    background: rgb(128, 128, 128);
+    color: white;
+}
